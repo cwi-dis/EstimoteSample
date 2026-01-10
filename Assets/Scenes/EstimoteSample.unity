@@ -198,7 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4442508416b1450f827b64ad7861d8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  URL: http://shellyplugsg3-d0cf13c779fc.local/
+  URL: http://fishplug.local/
   turnOn: relay/0?turn=on
   turnOff: relay/0?turn=off
   followEnabled: 1
