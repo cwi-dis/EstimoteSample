@@ -666,10 +666,6 @@ PrefabInstance:
       propertyPath: estimoteTracker
       value: 
       objectReference: {fileID: 1202205921}
-    - target: {fileID: 4041077772431673660, guid: 73ca7118e91ed3640af640a5c1b640ca, type: 3}
-      propertyPath: client
-      value: 
-      objectReference: {fileID: 423410841}
     - target: {fileID: 8374218866400817889, guid: 73ca7118e91ed3640af640a5c1b640ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.25
@@ -710,6 +706,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8584293755732621994, guid: 73ca7118e91ed3640af640a5c1b640ca, type: 3}
+      propertyPath: client_3
+      value: 
+      objectReference: {fileID: 423410841}
     - target: {fileID: 9186467050829228123, guid: 73ca7118e91ed3640af640a5c1b640ca, type: 3}
       propertyPath: m_Name
       value: ActiveDice
