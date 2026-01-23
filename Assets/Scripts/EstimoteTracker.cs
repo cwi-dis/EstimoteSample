@@ -46,6 +46,7 @@ public class EstimoteTracker : MonoBehaviour
     [Tooltip("Most recent tracker value received")]
     public EstimoteData lastReading;
 
+    [SerializeField] private bool debug = false;
     private float _time;
     // Start is called before the first frame update
     
@@ -67,7 +68,7 @@ public class EstimoteTracker : MonoBehaviour
 
     void Get()
     {
-        Debug.Log($"EstimoteTracker: GET {URL}");
+        if (debug) Debug.Log($"EstimoteTracker: GET {URL}");
         RestClient.Get<EstimoteData>(URL).Then(res =>
         {
             lastReading = res;
