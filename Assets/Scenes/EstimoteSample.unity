@@ -400,7 +400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f040c21e268644c9d856da75e4ea54b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  URL: http://estimotes.local/api/estimote?id=09a7e8b16369cb58
+  URL: http://estimotes.local/api/estimote?id=80ec7d3cc3dc8343
   interval: 1
   lastReading:
     x: 0
@@ -710,6 +710,10 @@ PrefabInstance:
       propertyPath: client_3
       value: 
       objectReference: {fileID: 423410841}
+    - target: {fileID: 8584293755732621994, guid: 73ca7118e91ed3640af640a5c1b640ca, type: 3}
+      propertyPath: client_6
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9186467050829228123, guid: 73ca7118e91ed3640af640a5c1b640ca, type: 3}
       propertyPath: m_Name
       value: ActiveDice
